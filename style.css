@@ -1,0 +1,50 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    background-color: red;
+    padding:30px 20px;
+    border: 3px solid rgb(255, 114, 114);
+    border-radius: 40px;
+}
+#Number{
+    font-size: 5em;
+    text-align: center;
+    font-family:sans-serif;
+    border: 3px black solid;
+    padding:50px 75px;
+    margin: 15px;
+    background-color: white;
+}
+
+.buttons{
+    display: flex;
+    justify-content:center;
+    gap: 5px;
+}
+.buttons button{
+    color:white;
+    background-color: rgb(34, 152, 255);
+    border: 1px rgb(34, 152, 255) solid;
+    padding:10px 15px;
+    border-radius: 10px;
+    cursor:pointer;
+    box-shadow: 0 5px rgb(19, 67, 109);
+}
+
+button:active{
+    box-shadow: none;
+    transform: translateY(5px);
+}
